@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "twitterlist",
+    "packageName": "fr.gaelcarre.twitterlist",
+    "packageFolder": "fr/gaelcarre/twitterlist",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "MjcyOTk4OGVhZGYwYjRlN2MwNTg0YjczNjFkOTFiNzAyYWU1YTgzZWEzMWQ5ZDM0MmIwM2YzYmUzYzBjZWIyMDNlYzBkMzQ0ZmY2NGRjNzMyODlmYmNlMmRjOGE3NjBjNTZiZWI3MzdhNTBhODQwMzU0MjFmYzJkOTc5OTdhNTM=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "gaelcarre",
+  "repository-name": "twitterlistjh"
+}
